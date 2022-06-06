@@ -1,0 +1,93 @@
+/* Fill CSS here */
+div{
+    display: flex; 
+    justify-content: space-between;
+ }
+ 
+ form{
+     margin: auto;
+     margin-top: 50px;
+     width:30%;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     padding:30px;
+ }
+ label{
+     font-size: 20px;
+ }
+ 
+ table{
+     width:60%;
+     margin: auto;
+     margin-top: 50px;
+     text-align: center;
+ }
+ table td,
+ table th
+ {
+ border: 1px solid blue;
+ padding: 10px;
+ text-align: center;
+ }
+ 
+ table tr:hover{
+     background-color: blue;
+ }
+ table th{
+     padding-top: 10px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: greenyellow;
+     color: white;
+     text-align: center;
+ }
+ 
+ *{
+     box-sizing: border-box;
+ }
+ 
+ input[type = "text"],
+ input [type = "number"],
+ select,
+ textarea{
+     width:100%;
+     padding: 12px;
+     border: 1px solid red;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 8px;
+     margin-bottom: 18px;
+     resize: vertical;
+ }
+ 
+ input[type = "submit"]{
+     background-color: black;
+     color: aliceblue;
+     padding: 12px 20px;
+     border: none;
+     cursor:pointer;
+     width: 100%;
+     font-size: 20px;
+ }
+ 
+ input[type = "submit"]:hover{
+     background-color: brown;
+ }
+ .container{
+     background-color: whitesmoke;
+     padding: 20px;
+ }
+ 
+ h1{
+     text-align: center;
+     font-size: 50px;
+     text-transform: uppercase;
+     font-family: monospace;
+     color: blueviolet;
+     text-decoration: underline;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
